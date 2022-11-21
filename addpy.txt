@@ -1,0 +1,8 @@
+1.Python program for sum of 2 no.s?
+a=int(input("Enter value of a:"))
+b=int(input("Enter value of b:"))
+print("Sum of two no.s is:",a+b)
+Output:
+Enter value of a:10
+Enter value of b:20
+Sum of two no.s is: 30
