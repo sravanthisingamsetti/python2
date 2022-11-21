@@ -1,0 +1,8 @@
+3.Python program to mul of 2 no.s?
+a=int(input("Enter value of a:"))
+b=int(input("Enter value of b:"))
+print("mul of two no.s is:",a*b)
+Output:
+Enter value of a:10
+Enter value of b:20
+mul of two no.s is: 200
