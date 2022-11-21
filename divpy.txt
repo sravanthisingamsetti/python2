@@ -1,0 +1,8 @@
+4.Python program to div 2 no.s?
+a=int(input("Enter value of a:"))
+b=int(input("Enter value of b:"))
+print("div of two no.s is:",a/b)
+Output:
+Enter value of a:20
+Enter value of b:10
+div of two no.s is: 2
