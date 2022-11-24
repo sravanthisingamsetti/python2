@@ -1,0 +1,9 @@
+4.Python program 2 print given no is postive or negative?
+a=int(input("enter a value:"))
+if(a>0):
+    print("it is a positive no")
+else:
+    print("it is negative no")
+Output:
+enter a value:-137
+it is negative no
