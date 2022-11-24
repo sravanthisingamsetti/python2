@@ -1,0 +1,18 @@
+2.Python program to perform relational operation?
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+print("a==b:",a==b)
+print("a!=b:",a!=b)
+print("a>b:",a>b)
+print("a<b:",a<b)
+print("a>=b:",a>=b)
+print("a<=b:",a<=b)
+Output:
+enter a value:10
+enter b value:20
+a==b: False
+a!=b: True
+a>b: False
+a<b: True
+a>=b: False
+a<=b: True
