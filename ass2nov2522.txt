@@ -1,0 +1,9 @@
+2.Python program to print the min value in the list?
+mylist=[10,20,200,5,30,800,213,14,700,137,21,7]
+min=mylist[0]
+for i in mylist:
+    if i<min:
+        min=i
+print("minimum element in the list is:",min)
+Output:
+minimum element in the list is: 5
