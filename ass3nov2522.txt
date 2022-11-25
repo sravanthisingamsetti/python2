@@ -1,0 +1,9 @@
+3.Python program to calculate sum of the even no.s in the list?
+mylist=[14,21,1,13,7,4,3,2,6]
+sum=0
+for i in mylist:
+    if(i%2==0):
+        sum=sum+i
+print("sum of the even numbers of a list is:",sum)
+Output:
+sum of the even numbers of a list is: 26
