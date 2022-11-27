@@ -1,0 +1,12 @@
+1.Python program on bitwise(&),bitwise(|),bitwise(^)?
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+print("a&b value is:",a&b);
+print("a|b value is:",a|b);
+print("a^b value is:",a^b);
+Output:
+enter a number:10
+enter a number:12
+a&b value is: 8
+a|b value is: 14
+a^b value is: 6
