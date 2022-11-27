@@ -1,0 +1,25 @@
+2.Pyhon program on bitwise left shift operator?
+a=int(input("enter a number:"))
+print("left shift of a is:",a<<1);
+print("left shift of a is:",a<<2);
+print("left shift of a is:",a<<3);
+print("left shift of a is:",a<<4);
+print("left shift of a is:",a<<5);
+print("left shift of a is:",a<<6);
+print("left shift of a is:",a<<7);
+print("left shift of a is:",a<<8);
+print("left shift of a is:",a<<9);
+print("left shift of a is:",a<<10);
+Output:
+enter a number:12
+left shift of a is: 24
+left shift of a is: 48
+left shift of a is: 96
+left shift of a is: 192
+left shift of a is: 384
+left shift of a is: 768
+left shift of a is: 1536
+left shift of a is: 3072
+left shift of a is: 6144
+left shift of a is: 12288
+> 
