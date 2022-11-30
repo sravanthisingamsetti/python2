@@ -1,0 +1,45 @@
+1.Python program to prepare a bill for super market?
+bg=100 #bengal gram
+gg=200 #green gram
+rg=150 #red gram
+blg=100 #black gram
+fgs=600 #fenugreek seeds
+cphno=input("Enter customer phone number:")
+cname=input("Enter customer name:")
+cadd=input("Enter customer address:")
+bgq=int(input("how much of bengal gram you want:"))
+ggq=int(input("how much of green gram you want:"))
+rgq=int(input("how much of red gram you want:"))
+blgq=int(input("how much of black gram you want:"))
+fgsq=int(input("how much of fenugreek seeds  you want:"))
+bill=(bgq*bg)+(ggq*gg)+(rgq*rg)+(blgq*blg)+(fgsq*fgs)
+if(bill>3000):
+    tax=bill*5/100
+elif(bill>2000):
+    tax=bill*7/100
+elif(bill>1000):
+    tax=bill*10/100
+elif(tax>500):
+    tax=bill*15/100
+else:
+    tax=100
+print("tax:",tax)
+bill=bill+tax
+print("customer phone number is:",cphno)
+print("customer name is:",cname)
+print("customer address is:",cadd)
+print("bill amount is",bill)
+Output:
+Enter customer phone number:12456
+Enter customer name:sravs
+Enter customer address:maldives
+how much of bengal gram you want:2
+how much of green gram you want:1
+how much of red gram you want:2
+how much of black gram you want:3
+how much of fenugreek seeds  you want:1
+tax: 160.0
+customer phone number is: 12456
+customer name is: sravs
+customer address is: maldives
+bill amount is 1760.0
