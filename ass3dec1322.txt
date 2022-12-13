@@ -1,0 +1,9 @@
+3.Hackerrank solution?
+n = int(input())
+arr = list(map(int, input().split()))
+m=[]
+for i in arr:
+    if i not in m:
+        m.append(i)
+m.sort(reverse=True)
+print(m[1])
