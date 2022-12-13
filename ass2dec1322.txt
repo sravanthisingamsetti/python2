@@ -1,0 +1,5 @@
+2.Python program to delete duplicate values from the list?
+l=[1,2,2,5,57,5,7,26,7,13]
+print(set(l))
+OUTPUT:
+{1, 2, 5, 7, 13, 57, 26}
