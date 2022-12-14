@@ -1,0 +1,21 @@
+1.Python program to find max and min values without using library functions?
+l=[]
+n=int(input())
+l=list(map(int,input().split()))
+min=l[0]
+for i in range(1,n):
+    if l[i]<min:
+        min=l[i]
+print(min)
+max=l[0]
+for i in range(1,n):
+    if l[i]>max:
+        max=l[i]
+print(max)
+INPUT:
+5
+1 2 3 44 0
+OUTPUT:
+0 
+44   
+        
