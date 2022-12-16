@@ -1,0 +1,12 @@
+3.Python program to count no.of digits in given string?
+str=input()
+n=len(str)
+count=0
+for i in range(0,n):
+    if str[i].isdigit()==1:
+        count=count+1
+print(count)
+INPUT:
+mnpsrbd@&>14211137
+OUTPUT:
+8
