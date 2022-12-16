@@ -1,0 +1,12 @@
+2.Python program to count no.of alphabets?
+str=input()
+n=len(str)
+count=0
+for i in range(0,n):
+    if str[i].isalpha()==1:
+        count=count+1
+print(count)
+INPUT:
+sravanthi@123
+OUTPUT:
+9
