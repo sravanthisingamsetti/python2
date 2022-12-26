@@ -1,0 +1,11 @@
+n=int(input())
+nums=list(map(int,input().split()))
+def single(nums):
+    for i in nums:
+        if nums.count(i)==1:
+            return i
+print(single(nums))
+OUTPUT:
+5
+1 2 2 5 6
+1
