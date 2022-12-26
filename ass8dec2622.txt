@@ -1,0 +1,18 @@
+start=int(input())
+end=int(input())
+print("leap years in given range are:")
+for x in range(start,end+1):
+    if x%4==0 and x%100!=0:
+        print(x)
+    elif x%400==0:
+        print(x)
+OUTPUT:
+2000
+2020
+leap years in given range are:
+2000
+2004
+2008
+2012
+2016
+2020
