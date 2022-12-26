@@ -1,0 +1,9 @@
+n=int(input())
+nums=list(map(int,input().split()))
+m=max(nums)
+n=min(nums)
+print(m-n)
+OUTPUT:
+5
+1 2 3 4 5
+4
